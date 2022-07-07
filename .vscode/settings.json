@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "src/**/*.component.scss": true,
+    "src/**/*.component.spec.ts": true,
+    "package-lock.json": true,
+    "node_modules": true,
+    "README.md": true,
+    "karma.conf.js": true,
+    ".browserslistrc": true,
+    ".editorconfig": true,
+    "src/test.ts": true,
+    ".vscode": true,
+  }
+}
