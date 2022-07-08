@@ -1,1 +1,6 @@
-<app-nova-transferencia></app-nova-transferencia>
+<app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
+
+<ul *ngIf="transferencia">
+  <li>Valor: {{transferencia.valor}}</li>
+  <li>Destino: {{transferencia.destino}}</li>
+</ul>
