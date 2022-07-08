@@ -7,9 +7,10 @@ import ITransferencia from './interfaces/ITransferencia';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  transferencia: ITransferencia;
+  transferencias: ITransferencia[] = [];
 
   transferir($event: ITransferencia) {
-    this.transferencia = $event;
+    const transferencia = { ...$event, data: new Date() };
+    this.transferencias.push(transferencia);
   }
 }
