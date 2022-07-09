@@ -2,6 +2,7 @@
   "files.exclude": {
     "src/**/*.component.scss": true,
     "src/**/*.component.spec.ts": true,
+    "src/**/*.service.spec.ts": true,
     "package-lock.json": true,
     "node_modules": true,
     "README.md": true,
