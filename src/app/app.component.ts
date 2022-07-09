@@ -8,10 +8,4 @@ import { TransferenciaService } from './services/transferencia.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  constructor(private transferenciaService: TransferenciaService) {}
-
-  transferir($event: ITransferencia) {
-    this.transferenciaService.adicionar($event);
-  }
-}
+export class AppComponent {}
